@@ -7,11 +7,14 @@ body {
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
+
 /*Navbar*/
 
 .logo {
   height: 24px;
   padding-left: 120px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .header {
@@ -33,8 +36,27 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-family: poppins;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.5px;
+  transition: 0.5s;
+}
+.navbar a:hover {
+  margin-left: 45px;
+  color: #53a4ec;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  transition: 300ms;
+}
+.icons {
+  font-size: 2.8rem;
+  color: #ffffff;
+  display: none;
+}
+/*Responsivness*/
+@media (max-width: 850px) {
+  .icons {
+    display: block;
+  }
 }
