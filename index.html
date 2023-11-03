@@ -10,35 +10,56 @@
     <title>DigiBlog | Home</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="img/DigiBlog_icon.png" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="homepage-header">
-      <nav class="nav">
-        <img src="img/DigiBlog_logo.png" alt="DigiBlog logo" />
-        <ul>
-          <li>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="home-hero">
+      <div class="nav-container">
+        <nav class="nav_checkbox">
+          <img class="logo" src="img/DigiBlog_logo.png" alt="DigiBlog logo" />
+          <input type="checkbox" id="tab-nav" class="tab-nav" />
+          <label for="tab-nav" class="label">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+          </label>
+          <ul class="content_nav">
+            <li>
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Blog</a>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="homepage-main">
+      <!--<div class="home-hero">
         <div class="home-hero-text-container">
           <h1>DigiBlog: Unveiling the Techscape</h1>
           <p>A Blog about the Digital World's Latest News and Trends</p>
         </div>
         <img src="img/hero_homepage.jpg" alt="hero homepage" />
       </div>
-    </header>
-    <main class="homepage-main">
       <h2>Recent <span>Posts</span></h2>
 
       <section>
         <img src="" alt="" />
-        <h3></h3>
-      </section>
+        <h3>Will the Smartglasses Replace Smartphones in the Future?</h3>
+        <h4>October 23, 2023</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce finibus
+          posuere leo, ut vestibulum arcu maximus eu. In nec congue sapien.
+          Nullam dapibus sit amet ligula in laoreet
+        </p>
+      </section>-->
     </main>
 
     <footer></footer>
