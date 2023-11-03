@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffffff;
+}
+.homepage-header {
+  background-color: #092d4d;
+  height: 1055px;
+}
