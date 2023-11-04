@@ -180,7 +180,9 @@ footer {
 }
 
 /*Home Recent Section*/
-
+.home-recent-section {
+  margin: 120px;
+}
 .home-recent-section h2 {
   color: #092d4d;
   text-align: center;
@@ -195,6 +197,22 @@ footer {
 
 .home-recent-article-card {
   background-color: #092d4d;
-  width: 387px;
+  width: 350px;
   height: fit-content;
+}
+
+.home-recent-article-card img {
+  width: 350px;
+}
+
+.home-recent-article-card h3 {
+  margin-left: 6px;
+  color: #ffffff;
+
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration-line: underline;
 }
