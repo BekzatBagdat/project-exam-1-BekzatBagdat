@@ -154,6 +154,8 @@ footer {
 .home-hero-elements img {
   width: 584px;
   padding-top: 64px;
+  user-select: none;
+  cursor: pointer;
 }
 
 .home-hero-text {
@@ -175,4 +177,24 @@ footer {
   line-height: normal;
 
   padding-top: 52px;
+}
+
+/*Home Recent Section*/
+
+.home-recent-section h2 {
+  color: #092d4d;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.home-recent-section h2 span {
+  color: #36aa00;
+}
+
+.home-recent-article-card {
+  background-color: #092d4d;
+  width: 387px;
+  height: fit-content;
 }
