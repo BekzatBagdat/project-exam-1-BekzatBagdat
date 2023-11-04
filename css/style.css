@@ -143,7 +143,7 @@ footer {
 .home-hero-section {
   color: #ffffff;
   background-color: #092d4d;
-  height: 770px;
+  height: fit-content;
 }
 .home-hero-elements {
   padding-left: 120px;
