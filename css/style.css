@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: 100ms ease;
 }
 body {
+  max-width: 100vw;
   min-height: 100vh;
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
@@ -20,7 +22,7 @@ body {
 }
 
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -29,6 +31,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 0px;
 }
 .navbar {
   padding-right: 120px;
@@ -48,7 +51,7 @@ body {
   color: #53a4ec;
   text-decoration: underline;
   text-underline-offset: 0.5rem;
-  transition: 300ms;
+  transition: 200ms;
 }
 #check {
   display: none;
@@ -94,7 +97,7 @@ body {
 
   #check:checked ~ .navbar {
     height: 17.7rem;
-    transition: 300ms ease;
+    transition: 200ms ease;
   }
 
   .navbar a {
@@ -131,4 +134,15 @@ footer {
   font-weight: 400;
   user-select: none;
   cursor: pointer;
+}
+
+/*Home Page hero*/
+.home-hero-section {
+  color: #ffffff;
+  background-color: #092d4d;
+  height: 776px;
+}
+.home-hero-elements {
+  padding-left: 120px;
+  padding-right: 120px;
 }
