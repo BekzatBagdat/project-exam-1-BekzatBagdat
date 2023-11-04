@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: 100ms ease;
 }
 html {
   scroll-behavior: smooth;
@@ -147,4 +148,16 @@ footer {
 .home-hero-elements {
   padding-left: 120px;
   padding-right: 120px;
+}
+.home-hero-text {
+  width: 584px;
+}
+.home-hero-text h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.68px;
+
+  padding-top: 130px;
 }
