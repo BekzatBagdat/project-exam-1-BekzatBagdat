@@ -206,13 +206,42 @@ footer {
 }
 
 .home-recent-article-card h3 {
-  margin-left: 6px;
+  margin-top: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
   color: #ffffff;
 
-  font-family: Poppins;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
   text-decoration-line: underline;
+}
+.home-recent-article-date-p {
+  margin-top: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+  color: #ffffff;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.home-recent-article-txt-p {
+  margin-top: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  color: #ffffff;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 81.77%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
 }
