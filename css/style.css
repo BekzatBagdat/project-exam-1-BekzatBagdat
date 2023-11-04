@@ -143,21 +143,36 @@ footer {
 .home-hero-section {
   color: #ffffff;
   background-color: #092d4d;
-  height: 776px;
+  height: 770px;
 }
 .home-hero-elements {
   padding-left: 120px;
   padding-right: 120px;
+  display: flex;
+  justify-content: space-between;
 }
+.home-hero-elements img {
+  width: 584px;
+  padding-top: 64px;
+}
+
 .home-hero-text {
   width: 584px;
 }
 .home-hero-text h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -1.68px;
 
   padding-top: 130px;
+}
+.home-hero-text p {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  padding-top: 52px;
 }
