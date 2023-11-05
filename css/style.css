@@ -232,6 +232,9 @@ footer {
 /*Home Recent Section*/
 .home-recent-section {
   margin: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .home-recent-section h2 {
   color: #092d4d;
@@ -327,7 +330,7 @@ footer {
 .home-recent-container {
   display: flex;
   justify-content: flex-start;
-  width: 1100px;
+  width: 1050px;
   overflow-x: scroll;
 }
 .home-recent-content {
