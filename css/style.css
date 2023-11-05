@@ -249,13 +249,14 @@ footer {
 .home-recent-article-card {
   background-color: #092d4d;
   width: 350px;
-
   margin-bottom: 30px;
   border-radius: 15px;
 }
 
 .home-recent-article-card img {
   width: 350px;
+  height: 150px;
+  object-fit: cover;
 }
 
 .home-recent-article-card h3 {
@@ -304,11 +305,22 @@ footer {
   padding-top: 3px;
   padding-bottom: 3px;
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .home-recent-article-card a:hover {
   background-color: #0088ff;
   transition: 300ms ease;
+}
+
+/*carousel*/
+.home-recent-container {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+}
+.home-recent-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  padding: 10px;
 }
