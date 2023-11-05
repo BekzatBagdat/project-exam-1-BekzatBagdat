@@ -38,6 +38,7 @@
         <a href="contact.html">Contact</a>
       </nav>
     </header>
+
     <main class="homepage-main">
       <section class="home-hero-section">
         <div class="home-hero-elements">
@@ -48,9 +49,75 @@
           <img src="img/hero_homepage.jpg" alt="globe, computer mouse" />
         </div>
       </section>
+
       <section class="home-recent-section">
         <h2>Recent <span>Posts</span></h2>
-        <div class="home-recent-article-card">
+        <div id="slider">
+          <input type="radio" name="slider" id="slide1" checked />
+          <input type="radio" name="slider" id="slide2" />
+          <input type="radio" name="slider" id="slide3" />
+          <input type="radio" name="slider" id="slide4" />
+          <input type="radio" name="slider" id="slide5" />
+          <input type="radio" name="slider" id="slide6" />
+          <div id="slides">
+            <div id="overflow">
+              <div class="inner">
+                <!--Slide Content-->
+                <div class="slide slide_1">
+                  <div class="home-recent-article-card">
+                    <img
+                      src="img/women_smartglasses.png"
+                      alt="women with smartglasses"
+                    />
+                    <h3>
+                      Will the Smartglasses Replace Smartphones in the Future?
+                    </h3>
+                    <p class="home-recent-article-date-p">October 23, 2023</p>
+                    <a href="post.html">Read the article</a>
+                  </div>
+                </div>
+
+                <div class="slide slide_2">
+                  <div class="home-recent-article-card">
+                    <img
+                      src="img/theiphone.jpg"
+                      alt="iphone 15"
+                    />
+                    <h3>The new iphone 15 is Amazing</h3>
+                    <p class="home-recent-article-date-p">October 15, 2023</p>
+                    <a href="post.html">Read the article</a>
+                  </div>
+                </div>
+
+                <div class="slide slide_3">
+                  <div class="home-recent-article-card">
+                    <img
+                      src="img/socialmedia.jpg"
+                      alt="social media icons on a phone"
+                    />
+                    <h3>How spending too much Time on Social Media affects your health</h3>
+                    <p class="home-recent-article-date-p">September 28, 2023</p>
+                    
+                    <a href="post.html">Read the article</a>
+                  </div>
+
+                  <div class="slide slide_4">
+                    <div class="home-recent-article-card">
+                      <img
+                        src="img/socialmedia.jpg"
+                        alt="social media icons on a phone"
+                      />
+                      <h3>How spending too much Time on Social Media affects your health</h3>
+                      <p class="home-recent-article-date-p">September 28, 2023</p>
+                      
+                      <a href="post.html">Read the article</a>
+                    </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--<div class="home-recent-article-card">
           <img src="img/women_smartglasses.png" alt="women with smartglasses" />
           <h3>Will the Smartglasses Replace Smartphones in the Future?</h3>
           <p class="home-recent-article-date-p">October 23, 2023</p>
@@ -60,7 +127,7 @@
             sapien. Nullam dapibus sit amet ligula in laoreet
           </p>
           <a href="post.html">Read the article</a>
-        </div>
+        </div>-->
       </section>
     </main>
 
