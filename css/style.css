@@ -343,3 +343,17 @@ footer {
 .home-recent-container::-webkit-scrollbar {
   display: none;
 }
+
+.home-recent-container-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto;
+}
+.back-btn,
+.forward-btn {
+  height: 90px;
+  margin: 20px;
+  user-select: none;
+  cursor: pointer;
+}
