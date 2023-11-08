@@ -456,6 +456,8 @@ footer {
   color: #53a4ec;
 }
 
+/*Our Story Section*/
+
 .our-story-content {
   margin: 120px;
 }
@@ -464,4 +466,25 @@ footer {
   font-size: 1rem;
   font-style: normal;
   font-weight: 800;
+  margin-bottom: 16px;
+}
+.our-story-content h3 {
+  color: #092d4d;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+.our-story-content img {
+  width: 500px;
+  float: right;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.about-our-story-txt p {
+  color: #092d4d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
 }
