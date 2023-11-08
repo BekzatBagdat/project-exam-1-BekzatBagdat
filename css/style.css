@@ -493,9 +493,11 @@ footer {
 .about-our-writers-section {
   width: 100%;
   background-color: #f6f6f6;
+  height: 100%;
 }
 .our-writers-content {
   margin: 120px;
+  margin-bottom: 0;
 }
 
 .our-writers-content p {
@@ -503,4 +505,13 @@ footer {
   font-size: 1rem;
   font-style: normal;
   font-weight: 800;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.our-writers-content h3 {
+  color: #092d4d;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
 }
