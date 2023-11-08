@@ -455,3 +455,13 @@ footer {
 .about-hero p span {
   color: #53a4ec;
 }
+
+.our-story-content {
+  margin: 120px;
+}
+.our-story-content p {
+  color: #31b74f;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+}
