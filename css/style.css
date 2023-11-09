@@ -501,7 +501,7 @@ footer {
 }
 
 .our-writers-content p {
-  color: #7f7f00;
+  color: #c2a500;
   font-size: 1rem;
   font-style: normal;
   font-weight: 800;
@@ -514,4 +514,13 @@ footer {
   font-size: 2rem;
   font-style: normal;
   font-weight: 600;
+}
+
+.our-writers-card img {
+  width: 183px;
+  border-radius: 183px;
+}
+.our-writers-card img {
+  width: 183px;
+  border-radius: 183px;
 }
