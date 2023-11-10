@@ -553,16 +553,20 @@ footer {
 }
 
 .our-writers-card a {
+  padding: 0;
   text-decoration: none;
   text-align: center;
   color: #ffffff;
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
-  height: 30px;
-  width: 114px;
+  height: 25px;
+  width: 115px;
 
-  background-color: #0088ff;
+  background-color: #106ab9;
   border-radius: 30px;
   margin-bottom: 30px;
+}
+.our-writers-card a:hover {
+  background-color: #0088ff;
 }
