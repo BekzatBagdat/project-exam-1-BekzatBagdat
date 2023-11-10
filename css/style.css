@@ -457,6 +457,25 @@ footer {
   color: #53a4ec;
 }
 
+@media (max-width: 793px) {
+  .about-hero h1 {
+    margin-left: 40px;
+  }
+
+  .about-hero h2 {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 200px) {
+  .about-hero h1 {
+    margin-left: 0px;
+  }
+
+  .about-hero h2 {
+    margin-left: 0px;
+  }
+}
+
 /*Our Story Section*/
 .our-story-content {
   margin: 120px;
@@ -488,7 +507,66 @@ footer {
   font-style: normal;
   font-weight: 300;
 }
+@media (max-width: 870px) {
+  .our-story-content img {
+    float: none;
+    margin: 0px;
+  }
+}
+@media (max-width: 793px) {
+  .our-story-content {
+    margin: 40px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 555px) {
+  .our-story-content {
+    margin: 40px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .our-story-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .our-story-content img {
+    width: 450px;
+  }
+}
+@media (max-width: 450px) {
+  .our-story-content img {
+    width: 350px;
+  }
+}
+@media (max-width: 350px) {
+  .our-story-content img {
+    width: 250px;
+  }
+}
+@media (max-width: 250px) {
+  .our-story-content img {
+    width: 150px;
+  }
+}
+@media (max-width: 200px) {
+  .our-story-content img {
+    width: 100px;
+  }
+  .our-story-content {
+    margin: 0px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .our-story-content img {
+    width: 100px;
+  }
+}
 /*Our Writers Section*/
 .about-our-writers-section {
   width: 100%;
@@ -526,6 +604,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 }
 .our-writers-card img {
   width: 183px;
@@ -569,4 +648,27 @@ footer {
 }
 .our-writers-card a:hover {
   background-color: #0088ff;
+}
+
+.about-card-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 793px) {
+  .our-writers-content {
+    margin: 40px;
+    margin-top: 120px;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 250px) {
+  .our-writers-content {
+    margin: 0px;
+    margin-top: 120px;
+  }
 }
