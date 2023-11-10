@@ -494,6 +494,7 @@ footer {
   width: 100%;
   background-color: #f6f6f6;
   height: 100%;
+  padding-bottom: 120px;
 }
 .our-writers-content {
   margin: 120px;
@@ -540,7 +541,28 @@ footer {
 .our-writers-card p {
   color: #092d4d;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
+}
+
+.our-writers-txt {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.our-writers-card a {
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  height: 30px;
+  width: 114px;
+
+  background-color: #0088ff;
+  border-radius: 30px;
+  margin-bottom: 30px;
 }
