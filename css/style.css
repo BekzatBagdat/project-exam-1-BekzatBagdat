@@ -714,3 +714,52 @@ footer {
   border-radius: 10px;
   border: 2px solid #092d4d;
 }
+
+#submitBtn {
+  padding-left: 0;
+  width: 180px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background: #092d4d;
+  color: #ffffff;
+
+  text-align: center;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+#submitBtn:hover {
+  background: #0088ff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+@media (max-width: 300px) {
+  .contact-content input {
+    width: 200px;
+  }
+  .contact-content textarea {
+    width: 200px;
+  }
+}
+@media (max-width: 230px) {
+  .contact-content input {
+    width: 150px;
+  }
+  .contact-content textarea {
+    width: 150px;
+  }
+
+  #submitBtn {
+    width: 100px;
+  }
+}
+@media (max-width: 220px) {
+  .contact-hero h1 {
+    font-size: 2rem;
+  }
+}
