@@ -671,3 +671,46 @@ footer {
     margin-top: 120px;
   }
 }
+
+/*Contact page*/
+.contact-content {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.contact-content form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-content label {
+  color: #092d4d;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.contact-content input {
+  padding-left: 10px;
+  margin-bottom: 30px;
+  outline: none;
+  color: #092d4d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid #092d4d;
+}
+.contact-content textarea {
+  padding-left: 10px;
+  margin-bottom: 30px;
+  outline: none;
+  color: #092d4d;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 2px solid #092d4d;
+}
