@@ -47,16 +47,20 @@
       <div class="contact-content">
         <form id="contactForm">
           <label for="name">Name:</label>
-          <input type="text" id="name" />
+          <span id="nameError" class="errors"></span>
+          <input type="text" id="name" name="name" />
 
           <label for="email">E-mail:</label>
-          <input type="email" id="email" />
+          <span id="emailError" class="errors"></span>
+          <input type="email" id="email" name="email" />
 
           <label for="subject">Subject:</label>
-          <input type="text" id="subject" />
+          <span id="subjectError" class="errors"></span>
+          <input type="text" id="subject" name="subject" />
 
           <label for="message">Message:</label>
-          <textarea cols="30" rows="6" id="message"></textarea>
+          <span id="messageError" class="errors"></span>
+          <textarea cols="30" rows="6" id="message" name="message"></textarea>
 
           <button type="submit" id="submitBtn">Submit</button>
         </form>

@@ -763,3 +763,9 @@ footer {
     font-size: 2rem;
   }
 }
+
+.errors {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(141, 0, 0);
+}
