@@ -7,7 +7,7 @@ const form = document
   });
 
 const formValidation = () => {
-  //DOM
+  //DOM inputs
   const name = document.querySelector("#name");
   const email = document.querySelector("#email");
   const subject = document.querySelector("#subject");
