@@ -737,6 +737,16 @@ footer {
   cursor: pointer;
   transition: 300ms ease;
 }
+.errors {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(141, 0, 0);
+}
+.success {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(0, 109, 11);
+}
 
 @media (max-width: 300px) {
   .contact-content input {
@@ -744,6 +754,12 @@ footer {
   }
   .contact-content textarea {
     width: 200px;
+  }
+  .errors {
+    font-size: 0.7rem;
+  }
+  .success {
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 230px) {
@@ -757,15 +773,15 @@ footer {
   #submitBtn {
     width: 100px;
   }
+  .errors {
+    font-size: 0.6rem;
+  }
+  .success {
+    font-size: 0.6rem;
+  }
 }
 @media (max-width: 220px) {
   .contact-hero h1 {
     font-size: 2rem;
   }
-}
-
-.errors {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: rgb(141, 0, 0);
 }
