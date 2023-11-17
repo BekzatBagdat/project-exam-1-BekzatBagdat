@@ -7,6 +7,8 @@ const form = document
   });
 
 const formValidation = () => {
+  //Submit btn
+  const submitBtn = document.querySelector("#submitBtn");
   //DOM inputs
   const name = document.querySelector("#name");
   const email = document.querySelector("#email");
@@ -17,6 +19,8 @@ const formValidation = () => {
   const emailError = document.querySelector("#emailError");
   const subjectError = document.querySelector("#subjectError");
   const messageError = document.querySelector("#messageError");
+  //Submission valid span
+  const subValid = document.querySelector(".sub-valid");
 
   //Name validate
   if (name.value.trim() == "") {
@@ -31,7 +35,7 @@ const formValidation = () => {
     nameError.classList.remove("success");
   } else if (name.value.trim().length >= 5) {
     //If valid
-    nameError.textContent = "Name is valid ✅";
+    nameError.textContent = "Name is valid!";
     nameError.classList.remove("errors");
     nameError.classList.add("success");
   }
@@ -48,7 +52,7 @@ const formValidation = () => {
     emailError.classList.remove("success");
   } else if (isValidEmail(email.value)) {
     //If valid
-    emailError.textContent = "E-mail is valid ✅";
+    emailError.textContent = "E-mail is valid!";
     emailError.classList.remove("errors");
     emailError.classList.add("success");
   }
@@ -65,7 +69,7 @@ const formValidation = () => {
     subjectError.classList.remove("success");
   } else if (subject.value.trim().length >= 15) {
     //If valid
-    subjectError.textContent = "Subject is valid ✅";
+    subjectError.textContent = "Subject is valid!";
     subjectError.classList.remove("errors");
     subjectError.classList.add("success");
   }
@@ -82,9 +86,20 @@ const formValidation = () => {
     messageError.classList.remove("success");
   } else if (message.value.trim().length >= 25) {
     //If valid
-    messageError.textContent = "Message is valid ✅";
+    messageError.textContent = "Message is valid!";
     messageError.classList.remove("errors");
     messageError.classList.add("success");
+  }
+
+  //Submission has been sent
+  if (
+    name.value.trim().length >= 5 &&
+    isValidEmail(email.value) &&
+    subject.value.trim().length >= 15 &&
+    message.value.trim().length >= 25
+  ) {
+    subValid.textContent = "Your submission has been sent ✅";
+    submitBtn.style.display = "none";
   }
 };
 
