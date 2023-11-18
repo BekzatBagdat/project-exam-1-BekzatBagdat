@@ -795,7 +795,35 @@ footer {
 /*Blog Page*/
 .blogs-container {
   margin: 120px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
+.blogs-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.blogs-container ul li {
+  margin: 15px;
+}
+#blogsBtnBox {
+  display: none;
+}
+.blogs-container ul li:nth-child(1n + 11) {
+  max-height: 0;
+  display: none;
+  transition: 300ms ease;
+}
+.blogs-container #blogsBtnBox:checked ~ ul li:nth-child(1n + 11) {
+  max-height: fit-content;
+  display: flex;
+  transition: 500ms ease;
+}
+
 .blog-card {
   margin-top: 60px;
   margin-bottom: 60px;
@@ -849,4 +877,84 @@ footer {
 .blog-card a:hover {
   background-color: #0088ff;
   transition: 300ms ease;
+}
+
+.load-more-btn {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-align: center;
+  color: #092d4d;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 120px;
+  z-index: 1000;
+  display: block;
+}
+.load-more-btn:hover {
+  color: #0088ff;
+  transition: 300ms ease;
+}
+
+@media (max-width: 793px) {
+  .blogs-container {
+    margin: 0px;
+  }
+  .blogs-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .blogs-container ul li {
+    margin: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .blog-card {
+    width: 200px;
+  }
+  .blog-card img {
+    width: 200px;
+    height: 100px;
+  }
+}
+@media (max-width: 260px) {
+  .blogs-container ul li {
+    margin: 10px;
+  }
+  .blog-card {
+    width: 200px;
+  }
+  .blog-card img {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 220px) {
+  .blogs-container ul li {
+    margin: 0px;
+    padding: 0;
+  }
+  .blog-card {
+    width: 200px;
+  }
+  .blog-card img {
+    width: 200px;
+    height: 100px;
+  }
+}
+@media (max-width: 200px) {
+  .blog-card {
+    width: 150px;
+  }
+  .blog-card img {
+    width: 150px;
+    height: 100px;
+  }
+  .blog-card a {
+    width: 130px;
+    font-size: 1rem;
+  }
 }
