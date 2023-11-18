@@ -2,7 +2,6 @@ const form = document
   .querySelector("#contactForm")
   .addEventListener("submit", (e) => {
     e.preventDefault();
-
     formValidation();
   });
 
