@@ -889,8 +889,10 @@ footer {
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 120px;
+  padding: 0;
   z-index: 1000;
   display: block;
+  user-select: none;
 }
 .load-more-btn:hover {
   color: #0088ff;
