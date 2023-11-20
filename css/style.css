@@ -977,14 +977,18 @@ footer {
   color: #0067c1;
 }
 .post-content img {
+  cursor: pointer;
   margin-left: 10px;
   margin-bottom: 10px;
   float: right;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   width: 693px;
   height: 245px;
   object-fit: cover;
+}
+.post-content img:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.255);
+  transition: 300ms ease;
 }
 .post-content h1 {
   font-size: 2rem;
@@ -1004,4 +1008,111 @@ footer {
 .post-txt p,
 .post-txt h2 {
   margin-bottom: 25px;
+}
+
+@media (max-width: 1153px) {
+  .post-content img {
+    margin-left: 0;
+    margin-bottom: 10px;
+    float: none;
+  }
+}
+@media (max-width: 1153px) {
+  .post-content img {
+    margin-left: 0;
+    margin-bottom: 10px;
+    float: none;
+  }
+}
+@media (max-width: 925px) {
+  .post-content img {
+    margin-left: 0;
+    margin-bottom: 10px;
+    float: none;
+    width: 560px;
+  }
+}
+
+@media (max-width: 793px) {
+  .post-section {
+    margin: 30px;
+  }
+
+  .post-content img {
+    width: 700px;
+  }
+}
+@media (max-width: 760px) {
+  .post-section {
+    margin: 30px;
+  }
+
+  .post-content img {
+    width: 100%;
+  }
+}
+@media (max-width: 270px) {
+  .post-section {
+    margin: 10px;
+  }
+
+  .post-content img {
+    width: 100%;
+  }
+}
+@media (max-width: 220px) {
+  .post-section {
+    margin: 0px;
+  }
+}
+@media (max-width: 211px) {
+  .post-content h1 {
+    font-size: 1rem;
+  }
+}
+.post-img-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(1px);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  cursor: pointer;
+}
+.post-img-modal img {
+  transition: ease-in 300ms;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  object-fit: cover;
+}
+@media (max-width: 800px) {
+  .post-img-modal img {
+    width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  .post-img-modal img {
+    width: 400px;
+  }
+}
+@media (max-width: 460px) {
+  .post-img-modal img {
+    width: 300px;
+  }
+}
+@media (max-width: 350px) {
+  .post-img-modal img {
+    width: 200px;
+  }
+}
+@media (max-width: 225px) {
+  .post-img-modal img {
+    width: 150px;
+  }
 }
