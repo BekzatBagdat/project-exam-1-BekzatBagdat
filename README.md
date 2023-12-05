@@ -1,8 +1,10 @@
-# Your project title
+# Digiblog
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![screencapture-digiblog-bekzatbagdat-netlify-app-2023-12-05-02_04_51](https://github.com/BekzatBagdat/project-exam-1-BekzatBagdat/assets/89454659/d2c9f517-71f4-4375-aece-4ff7fa9ba696)
 
-A simple overview of the use/purpose of the project.
+
+This was my project exam 1 with the following brief
+
 
 ## Description
 
