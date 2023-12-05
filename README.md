@@ -59,7 +59,7 @@ The steps i took in the development of this project:
 - [Headless Wordpress](https://wordpress.org/)
 
 ## Links
-- [Site deployment](https://gamehub-bekzatbagdat.netlify.app/)
+- [Site deployment](https://digiblog-bekzatbagdat.netlify.app/)
 
 ## Contact
 
